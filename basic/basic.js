@@ -22,3 +22,4 @@ const div1=React.createElement('div',{},[element,element1,element2]);
 
 const root=ReactDOM.createRoot(document.getElementById("root"));
 root.render(div1);
+ 
