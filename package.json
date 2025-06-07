@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/ujjwalgoel23/Learning_react#readme",
   "dependencies": {
-    "parcel": "^2.15.2"
+    "parcel": "^2.15.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0" 
   }
 }
+ 
