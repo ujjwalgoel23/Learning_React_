@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 
 
 // const element=React.createElement("h1",{},"hello world");
-// const root=ReactDOM.createRoot(document.getElementById("root"));
+// const root=ReactDOM.cre ateRoot(document.getElementById("root"));
 // root.render(element);
 
 // // creating  a element with id name and classname:-
