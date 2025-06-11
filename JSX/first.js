@@ -28,13 +28,32 @@ import ReactDOM from "react-dom/client";
 //                     </>
 //       )
           
-// REACT COMPONENT=>
-   //1. function based component=>
-          function greet(){
-               return <h1>hello world</h1>
-          }
-     const element=greet();
-     const root=ReactDOM.createRoot(document.getElementById("root"));
-     // root.render(element);  //or
-     root.render(greet());
+// // REACT COMPONENT=>
+//    //1. function based component=>
+//           function greet(){
+//                return <h1>hello world</h1>
+//           }
+//      const element=greet();
+//      const root=ReactDOM.createRoot(document.getElementById("root"));
+//      // root.render(element);  //or
+//      root.render(greet());
   
+// element aase access kr skte ahai JSX meh=.
+//   function Greet(){
+//      return <h1>Ram ram bhaiya ji</h1>
+//   };
+
+//   const element1=greet();
+//  const root1=ReactDOM.createRoot(document.getElementById('root'));
+//      root1.render(element1);
+     //another method to call greet() in JSX=>
+       //   const element2=<greet/>;// here the function is not call actually , JSX said that the first letter of the word is always capital 
+
+     function Greet(props){
+          return props.name; 
+     }
+         const element2=<Greet name="ujjwal" age="20"/>
+          const root1=ReactDOM.createRoot(document.getElementById('root'));
+          root1.render(element2);  
+
+          

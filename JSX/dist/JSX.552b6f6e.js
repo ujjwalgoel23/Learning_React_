@@ -702,21 +702,40 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 //                      <h1>world</h1>
 //                     </>
 //       )
-// REACT COMPONENT=>
-//1. function based component=>
-function greet() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "hello world"
-    }, void 0, false, {
-        fileName: "first.js",
-        lineNumber: 34,
-        columnNumber: 23
-    }, this);
+// // REACT COMPONENT=>
+//    //1. function based component=>
+//           function greet(){
+//                return <h1>hello world</h1>
+//           }
+//      const element=greet();
+//      const root=ReactDOM.createRoot(document.getElementById("root"));
+//      // root.render(element);  //or
+//      root.render(greet());
+// element aase access kr skte ahai JSX meh=.
+//   function Greet(){
+//      return <h1>Ram ram bhaiya ji</h1>
+//   };
+//   const element1=greet();
+//  const root1=ReactDOM.createRoot(document.getElementById('root'));
+//      root1.render(element1);
+//another method to call greet() in JSX=>
+//   const element2=<greet/>;// here the function is not call actually , JSX said that the first letter of the word is always capital 
+function Greet(props) {
+    return props.name;
 }
-const element = greet();
-const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-// root.render(element);  //or
-root.render(greet());
+_c = Greet;
+const element2 = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Greet, {
+    name: "ujjwal",
+    age: "20"
+}, void 0, false, {
+    fileName: "first.js",
+    lineNumber: 55,
+    columnNumber: 25
+}, undefined);
+const root1 = (0, _clientDefault.default).createRoot(document.getElementById('root'));
+root1.render(element2);
+var _c;
+$RefreshReg$(_c, "Greet");
 
   $parcel$ReactRefreshHelpers$ca57.postlude(module);
 } finally {
