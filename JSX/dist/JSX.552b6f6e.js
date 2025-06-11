@@ -680,21 +680,43 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-//JSX: stands for javascript XML
-//iss code ko hm XML me bhe likh skte haii:
-// const element2=React.createElement("h1",{className:"second",id:"id",style:{fontSize:"50px"}},"hello world");
+// //JSX: stands for javascript XML
+// //iss code ko hm XML me bhe likh skte haii:
+// // const element2=React.createElement("h1",{className:"second",id:"id",style:{fontSize:"50px"}},"hello world");
+// // const root=ReactDOM.createRoot(document.getElementById("root"));
+// // root.render(element2);
+// //XML me aase likhnge:->(aab se aase he likhne)->    
+// const element0=<h1>hello world</h1>
 // const root=ReactDOM.createRoot(document.getElementById("root"));
-// root.render(element2);
-//XML me aase likhnge:->
-const element = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    children: "hello world"
-}, void 0, false, {
-    fileName: "first.js",
-    lineNumber: 13,
-    columnNumber: 15
-}, undefined);
+//  root.render(element0);
+//  // craeting multiplel element in 'root' div using jsx
+//  //using <div>method=>
+//       const element=( <div>
+//                     <h1>hello</h1>
+//                     <h1>world</h1>
+//                     </div>
+//       )        
+// //without using div=>
+//      const element1=( <>
+//                     <h1>hello</h1>
+//                      <h1>world</h1>
+//                     </>
+//       )
+// REACT COMPONENT=>
+//1. function based component=>
+function greet() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "hello world"
+    }, void 0, false, {
+        fileName: "first.js",
+        lineNumber: 34,
+        columnNumber: 23
+    }, this);
+}
+const element = greet();
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(element);
+// root.render(element);  //or
+root.render(greet());
 
   $parcel$ReactRefreshHelpers$ca57.postlude(module);
 } finally {
