@@ -680,8 +680,23 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
+var _s = $RefreshSig$();
 function Counter() {
-    let count = 0;
+    _s();
+    // let count=0;
+    let [count, setCount] = (0, _react.useState)(0);
+    function incrementnumber() {
+        count = count + 1;
+        setCount(count);
+    //  document.querySelector('h1').innerHTML=`count is ${count}`;//DOM ko manipulate kr rha hai
+    //react kehta hai ki tumhe khud se DOM manipulate nhi krnaa
+    // react optimise way me DOM ko manipulate krta hai isliye hm ye kaam react ko sopp dete hai
+    }
+    function decrementnumber() {
+        count = count - 1;
+        setCount(count);
+    //  document.querySelector('h1').innerHTML=`count is ${count}`;//DOM ko manipulate kr rha hai
+    }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "first",
         children: [
@@ -693,34 +708,43 @@ function Counter() {
                 ]
             }, void 0, true, {
                 fileName: "first.js",
-                lineNumber: 7,
+                lineNumber: 25,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                children: "Increment"
-            }, void 0, false, {
+                onClick: incrementnumber,
+                children: [
+                    "Increment ",
+                    count
+                ]
+            }, void 0, true, {
                 fileName: "first.js",
-                lineNumber: 8,
+                lineNumber: 26,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                children: "Decrement"
-            }, void 0, false, {
+                onClick: decrementnumber,
+                children: [
+                    "Decrement ",
+                    count
+                ]
+            }, void 0, true, {
                 fileName: "first.js",
-                lineNumber: 9,
+                lineNumber: 27,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "first.js",
-        lineNumber: 6,
+        lineNumber: 24,
         columnNumber: 12
     }, this);
 }
+_s(Counter, "RpyMek13f3iNeQO0Gs9DEYmHKoY=");
 _c = Counter;
 (0, _clientDefault.default).createRoot(document.getElementById('root')).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Counter, {}, void 0, false, {
     fileName: "first.js",
-    lineNumber: 14,
+    lineNumber: 32,
     columnNumber: 61
 }, undefined));
 var _c;
