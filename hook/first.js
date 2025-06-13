@@ -23,8 +23,8 @@ function decrementnumber(){
 
    return (<div className="first">
     <h1> count is :{count} </h1>
-    <button onClick={incrementnumber}>Increment {count}</button>
-    <button onClick={decrementnumber}>Decrement {count}</button>
+    <button onClick={incrementnumber}>Increment </button>
+    <button onClick={decrementnumber}>Decrement </button>
   </div>
 )
 }

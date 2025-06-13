@@ -688,12 +688,41 @@ var _header = require("./component/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _dummy = require("./utils/dummy");
 var _dummyDefault = parcelHelpers.interopDefault(_dummy);
+var _s = $RefreshSig$();
 function App() {
+    _s();
+    let [A, setA] = (0, _react.useState)((0, _dummyDefault.default));
+    function sortarray() {
+        A.sort((a, b)=>a.price - b.price);
+        setA([
+            ...A
+        ]); //duplicate array bnaya hai kyuki uska reference alag hoga
+    }
+    function priceabove499() {
+        const B = (0, _dummyDefault.default).filter((value)=>value.price > 499);
+        setA(B);
+    }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/myntra.js",
-                lineNumber: 11,
+                lineNumber: 23,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: sortarray,
+                children: "Sort by Price"
+            }, void 0, false, {
+                fileName: "src/myntra.js",
+                lineNumber: 24,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: priceabove499,
+                children: "Price Above 499"
+            }, void 0, false, {
+                fileName: "src/myntra.js",
+                lineNumber: 25,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -703,32 +732,34 @@ function App() {
                     gap: "10px",
                     flexWrap: "wrap"
                 },
-                children: (0, _dummyDefault.default).map((value, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
+                children: A.map((value, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
                         cloth: value.cloth,
-                        offer: value.offer
+                        offer: value.offer,
+                        price: value.price
                     }, index, false, {
                         fileName: "src/myntra.js",
-                        lineNumber: 15,
-                        columnNumber: 31
+                        lineNumber: 28,
+                        columnNumber: 29
                     }, this))
             }, void 0, false, {
                 fileName: "src/myntra.js",
-                lineNumber: 13,
+                lineNumber: 26,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "src/myntra.js",
-                lineNumber: 19,
+                lineNumber: 31,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true);
 }
+_s(App, "Q15j6VveERBG8qyqFC0f4qoPdao=");
 _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById('root'));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/myntra.js",
-    lineNumber: 25,
+    lineNumber: 37,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -16185,11 +16216,21 @@ function Card(props) {
                         lineNumber: 7,
                         columnNumber: 13
                     }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: [
+                            "Price :",
+                            props.price
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/component/Card.js",
+                        lineNumber: 8,
+                        columnNumber: 13
+                    }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: "Shop Now"
                     }, void 0, false, {
                         fileName: "src/component/Card.js",
-                        lineNumber: 8,
+                        lineNumber: 9,
                         columnNumber: 13
                     }, this)
                 ]
@@ -18702,35 +18743,43 @@ parcelHelpers.defineInteropFlag(exports);
 const arr = [
     {
         cloth: "Skirt",
-        offer: "60-80%off"
+        offer: "60-80%off",
+        price: 200
     },
     {
         cloth: "Jeans",
-        offer: "70-80%off"
+        offer: "70-80%off",
+        price: 250
     },
     {
         cloth: "Kurta",
-        offer: "40-80%off"
+        offer: "40-80%off",
+        price: 100
     },
     {
         cloth: "Pant",
-        offer: "10-80%off"
+        offer: "10-80%off",
+        price: 500
     },
     {
         cloth: "Shoes",
-        offer: "30-80%off"
+        offer: "30-80%off",
+        price: 20
     },
     {
         cloth: "Casual",
-        offer: "30-50%off"
+        offer: "30-50%off",
+        price: 2000
     },
     {
         cloth: "T-shirt",
-        offer: "30-70%off"
+        offer: "30-70%off",
+        price: 300
     },
     {
         cloth: "Pant",
-        offer: "20-60%off"
+        offer: "20-60%off",
+        price: 50
     }
 ];
 exports.default = arr;
