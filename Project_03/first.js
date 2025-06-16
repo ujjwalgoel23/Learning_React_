@@ -32,7 +32,7 @@ function PasswordGenerator(){
         <>
         <h1> {password}</h1>
         <div className="second">
-            <input type="range" min={5} max={50} value={length} onChange={(e)=>setlength(e.target.value)} ></input>
+            <input type="range" min={5} max={35} value={length} onChange={(e)=>setlength(e.target.value)} ></input>
             <label> length({length})</label>
 
             <input type="checkbox" defaultChecked={numberchanged} onChange={()=>setnumberchanged(!numberchanged)}></input>
