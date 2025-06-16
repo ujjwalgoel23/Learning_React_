@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 
 function PasswordGenerator(){
 
-    const [password,setpassword]=useState("");
-    const [length,setlength]=useState(10);
+    const [password,setpassword] =useState("");
+    const [length,setlength] =useState(10);
     const [numberchanged , setnumberchanged]=useState(false);
     const [charchanged , setcharchanged]=useState(false);
 
@@ -26,13 +26,13 @@ function PasswordGenerator(){
 
      useEffect(()=>{
         generatepassword();
-     },[length,numberchanged,charchanged]); //we can also pass " [generatedpassword]" in dependency array
+     },[length,numberchanged,charchanged]); //we can also pass " [generatepassword]" in dependency array
 
     return (
         <>
         <h1> {password}</h1>
         <div className="second">
-            <input type="range" min={5} max={35} value={length} onChange={(e)=>setlength(e.target.value)} ></input>
+            <input type="range" min={5} max={30} value={length} onChange={(e)=>setlength(e.target.value)} ></input>
             <label> length({length})</label>
 
             <input type="checkbox" defaultChecked={numberchanged} onChange={()=>setnumberchanged(!numberchanged)}></input>
