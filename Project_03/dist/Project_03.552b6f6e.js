@@ -705,7 +705,7 @@ function PasswordGenerator() {
         length,
         numberchanged,
         charchanged
-    ]); //we can also pass " [generatedpassword]" in dependency array
+    ]); //we can also pass " [generatepassword]" in dependency array
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -715,7 +715,7 @@ function PasswordGenerator() {
                 ]
             }, void 0, true, {
                 fileName: "first.js",
-                lineNumber: 33,
+                lineNumber: 34,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -724,12 +724,12 @@ function PasswordGenerator() {
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                         type: "range",
                         min: 5,
-                        max: 50,
+                        max: 30,
                         value: length,
                         onChange: (e)=>setlength(e.target.value)
                     }, void 0, false, {
                         fileName: "first.js",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
@@ -740,7 +740,7 @@ function PasswordGenerator() {
                         ]
                     }, void 0, true, {
                         fileName: "first.js",
-                        lineNumber: 36,
+                        lineNumber: 37,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -749,14 +749,14 @@ function PasswordGenerator() {
                         onChange: ()=>setnumberchanged(!numberchanged)
                     }, void 0, false, {
                         fileName: "first.js",
-                        lineNumber: 38,
+                        lineNumber: 39,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         children: "Number"
                     }, void 0, false, {
                         fileName: "first.js",
-                        lineNumber: 39,
+                        lineNumber: 40,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -765,20 +765,20 @@ function PasswordGenerator() {
                         onChange: ()=>setcharchanged(!charchanged)
                     }, void 0, false, {
                         fileName: "first.js",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         children: "Character"
                     }, void 0, false, {
                         fileName: "first.js",
-                        lineNumber: 42,
+                        lineNumber: 43,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "first.js",
-                lineNumber: 34,
+                lineNumber: 35,
                 columnNumber: 9
             }, this)
         ]
@@ -789,7 +789,7 @@ _c = PasswordGenerator;
 const root = (0, _clientDefault.default).createRoot(document.getElementById('root'));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PasswordGenerator, {}, void 0, false, {
     fileName: "first.js",
-    lineNumber: 49,
+    lineNumber: 50,
     columnNumber: 13
 }, undefined));
 var _c;

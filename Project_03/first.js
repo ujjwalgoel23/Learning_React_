@@ -2,7 +2,7 @@ import React ,{useState ,useCallback, useEffect} from "react";
 import ReactDOM from "react-dom/client";
 
 function PasswordGenerator(){
-
+    
     const [password,setpassword] =useState("");
     const [length,setlength] =useState(10);
     const [numberchanged , setnumberchanged]=useState(false);
@@ -30,6 +30,7 @@ function PasswordGenerator(){
 
     return (
         <>
+        
         <h1> {password}</h1>
         <div className="second">
             <input type="range" min={5} max={30} value={length} onChange={(e)=>setlength(e.target.value)} ></input>
