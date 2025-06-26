@@ -4,9 +4,9 @@ import ReactDOM from "react-dom/client";
 function Stopwatch(){
     const [time,setTime]=useState(0);
     const [run,setrun]=useState(false);
+    const intervalRef=useRef(null);
 
-  const intervalRef=useRef(null);
-    function start(){
+function start(){
         if(!run){
         intervalRef.current= setInterval(() => {
             setTime(prevtime=>prevtime+1);
