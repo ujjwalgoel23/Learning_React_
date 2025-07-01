@@ -685,24 +685,48 @@ var _countingDefault = parcelHelpers.interopDefault(_counting);
 var _reactRedux = require("react-redux");
 var _stores = require("./Stores");
 var _storesDefault = parcelHelpers.interopDefault(_stores);
+var _customCounter = require("./CustomCounter");
+var _customCounterDefault = parcelHelpers.interopDefault(_customCounter);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRedux.Provider), {
         store: (0, _storesDefault.default),
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countingDefault.default), {}, void 0, false, {
-            fileName: "first.js",
-            lineNumber: 10,
-            columnNumber: 14
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countingDefault.default), {}, void 0, false, {
+                fileName: "first.js",
+                lineNumber: 11,
+                columnNumber: 14
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "first.js",
+                lineNumber: 12,
+                columnNumber: 14
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "first.js",
+                lineNumber: 13,
+                columnNumber: 14
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "first.js",
+                lineNumber: 14,
+                columnNumber: 14
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _customCounterDefault.default), {}, void 0, false, {
+                fileName: "first.js",
+                lineNumber: 15,
+                columnNumber: 14
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "first.js",
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 9
     }, this);
 }
 _c = App;
 (0, _clientDefault.default).createRoot(document.getElementById('root')).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "first.js",
-    lineNumber: 14,
+    lineNumber: 19,
     columnNumber: 61
 }, undefined));
 var _c;
@@ -19502,6 +19526,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Increment", ()=>Increment);
 parcelHelpers.export(exports, "Decrement", ()=>Decrement);
 parcelHelpers.export(exports, "Reset", ()=>Reset);
+parcelHelpers.export(exports, "CustomIncreaser", ()=>CustomIncreaser);
 var _toolkit = require("@reduxjs/toolkit");
 const reactslicer = (0, _toolkit.createSlice)({
     name: "slice1",
@@ -19517,10 +19542,13 @@ const reactslicer = (0, _toolkit.createSlice)({
         },
         Reset: (state)=>{
             state.count = 0;
+        },
+        CustomIncreaser: (state, action)=>{
+            state.count += action.payload;
         }
     }
 });
-const { Increment, Decrement, Reset } = reactslicer.actions;
+const { Increment, Decrement, Reset, CustomIncreaser } = reactslicer.actions;
 exports.default = reactslicer.reducer;
 
 },{"@reduxjs/toolkit":"fKS5f","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fKS5f":[function(require,module,exports,__globalThis) {

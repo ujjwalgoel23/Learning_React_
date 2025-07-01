@@ -1,13 +1,4 @@
-4104
-101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\BM.js133958188811829218 0
-79C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\picomatch133958188806749246 1
-103C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\semver\functions\compare-loose.js133958188806057048 0
-86C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\is-glob\index.js133958188803243553 0
-115C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\runtime-browser-hmr\src\HMRRuntime.js133958188805933309 0
-133C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\src\query\core\buildMiddleware\batchActions.ts133958189558001457 0
-69C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\package.json133958189639704792 0
-102C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\src\query\react133958189559749169 1
-101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\VI.js133958188824188455 0
+4105
 103C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\dist\query\react133958189558937044 1
 113C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\type-fest\source\union-to-intersection.d.ts133958188810108452 0
 97C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\node-addon-api\package.json133958188808541754 0
@@ -18,8 +9,8 @@
 116C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\lmdb\node_modules\node-addon-api\noexcept.gypi133958188804872544 0
 79C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\is-number133958188804250051 1
 91C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\dist\lib133958188823188436 1
-155C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\use-sync-external-store\cjs\use-sync-external-store-shim\with-selector.development.js133958189381379081 0
 114C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\react\cjs\react-jsx-dev-runtime.profiling.js133958188964929199 0
+155C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\use-sync-external-store\cjs\use-sync-external-store-shim\with-selector.development.js133958189381379081 0
 119C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\features\input-email-tel-url.js133958188819924969 0
 91C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\redux-thunk\README.md133958189556070694 0
 96C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\dotenv-expand\CHANGELOG.md133958188805038304 0
@@ -29,7 +20,7 @@
 123C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\src\entities\sorted_state_adapter.ts133958189559499129 0
 111C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\core\test\fixtures\custom-targets133958188815986718 1
 96C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\reselect\dist\reselect.mjs133958189556363475 0
-61C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\dist133958278798345619 1
+61C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\dist133958464964634618 1
 87C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\lmdb\src\misc.cpp133958188812871659 0
 79C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@mischnic133958188790332328 1
 105C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@swc\helpers\_\_non_iterable_spread133958188816638409 1
@@ -42,8 +33,19 @@
 88C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\.package-lock.json133958189560946435 0
 100C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\watcher\src\DirTree.hh133958188809286226 0
 102C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\utils\src\escape-html.js133958188808467552 0
+78C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\escalade133958188806588038 1
+84C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\.bin\json5.cmd133958188825222331 0
+107C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\features\portals.js133958188822048037 0
+105C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\watcher\src\watchman\IPC.hh133958188809610182 0
+76C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\base-x133958188804387364 1
+120C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\features\font-variant-numeric.js133958188819094407 0
+154C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\use-sync-external-store\cjs\use-sync-external-store-shim\with-selector.production.js133958189381429069 0
+86C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\redux\LICENSE.md133958189556193476 0
+111C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\node-gyp-build-optional-packages\index.js133958188804305656 0
+101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\RW.js133958188822538295 0
+73C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\CustomCounter.js133958464803392986 0
 115C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\core\src\public\MutableBundleGraph.js133958188812871659 0
-68C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\Counting.js133958278093589859 0
+68C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\Counting.js133958455641987100 0
 98C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\electron-to-chromium\LICENSE133958188802750371 0
 120C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\src\tests\createAction.test-d.tsx133958189559838678 0
 119C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\features\css-descendant-gtgt.js133958188814521634 0
@@ -57,7 +59,7 @@
 83C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\node-releases133958188805445581 1
 92C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\compressor-raw133958188804566548 1
 101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\PT.js133958188822128319 0
-65C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\first.js133958263077798938 0
+65C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\first.js133958455758800869 0
 102C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\redux\src\utils\isPlainObject.ts133958189556543480 0
 100C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\type-fest\source\asyncify.d.ts133958188805202280 0
 118C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\electron-to-chromium\full-chromium-versions.json133958188806505468 0
@@ -86,6 +88,15 @@
 118C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\lightningcss\node_modules\detect-libc\index.d.ts133958188805854458 0
 141C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\dist\react\cjs\redux-toolkit-react.development.cjs.map133958189556673242 0
 97C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\rust-win32-x64-msvc133958188803736057 1
+101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\BM.js133958188811829218 0
+79C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\picomatch133958188806749246 1
+103C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\semver\functions\compare-loose.js133958188806057048 0
+86C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\is-glob\index.js133958188803243553 0
+115C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\runtime-browser-hmr\src\HMRRuntime.js133958188805933309 0
+133C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\src\query\core\buildMiddleware\batchActions.ts133958189558001457 0
+69C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\package.json133958189639704792 0
+102C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\src\query\react133958189559749169 1
+101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\VI.js133958188824188455 0
 101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\CR.js133958188813449029 0
 103C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\node-addon-api\node_addon_api.gyp133958188803158624 0
 93C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@swc\types\package.json133958188804387364 0
@@ -101,7 +112,7 @@
 90C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\json5\lib\require.js133958188806245472 0
 108C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@standard-schema\spec\dist\index.d.cts133958189555975858 0
 118C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\features\picture-in-picture.js133958188821886597 0
-67C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\Slicer1.js133958288832553603 0
+67C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\Slicer1.js133958462810362947 0
 90C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\react-redux\dist\cjs133958189381509060 1
 99C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\nullthrows\nullthrows.js.flow133958188804928545 0
 109C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\ordered-binary\.idea\ordered-binary.iml133958188804062823 0
@@ -151,13 +162,6 @@
 81C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\ansi-styles133958188804791101 1
 137C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\dist\react\cjs\redux-toolkit-react.development.cjs133958189555975858 0
 105C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\src\query\index.ts133958189559066552 0
-78C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\escalade133958188806588038 1
-84C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\.bin\json5.cmd133958188825222331 0
-107C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\features\portals.js133958188822048037 0
-105C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\watcher\src\watchman\IPC.hh133958188809610182 0
-76C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\base-x133958188804387364 1
-120C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\features\font-variant-numeric.js133958188819094407 0
-154C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\use-sync-external-store\cjs\use-sync-external-store-shim\with-selector.production.js133958189381429069 0
 74C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\lmdb133958188814852137 1
 116C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@reduxjs\toolkit\src\query\react\buildHooks.ts133958189558051448 0
 113C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\features\sharedworkers.js133958188822866374 0
@@ -1125,7 +1129,6 @@
 118C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\features\css-initial-letter.js133958188815336341 0
 125C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.c133958188811711447 0
 80C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\redux\dist133958189556593487 1
-86C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\redux\LICENSE.md133958189556193476 0
 110C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\types-internal\lib\FilePath.d.ts133958188808376369 0
 101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\QA.js133958188822223291 0
 85C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\redux\README.md133958189556203487 0
@@ -1514,7 +1517,6 @@
 113C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\lmdb\dependencies\lz4\lib\lz4frame_static.h133958188813540207 0
 115C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\reporter-cli\test\CLIReporter.test.js133958188806749246 0
 102C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\transformer-html\LICENSE133958188802830466 0
-111C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\node-gyp-build-optional-packages\index.js133958188804305656 0
 110C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\node-gyp-build-optional-packages\LICENSE133958188802588090 0
 93C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\fill-range\package.json133958188803830656 0
 117C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.c133958188811728759 0
@@ -2293,7 +2295,6 @@
 101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\RS.js133958188822409244 0
 88C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@parcel\plugin\src133958188805038304 1
 101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\RU.js133958188822477702 0
-101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\RW.js133958188822538295 0
 101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\regions\SB.js133958188822538295 0
 104C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\caniuse-lite\data\features\ruby.js133958188822517274 0
 101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\@swc\helpers\_\_new_arrow_check133958188816555836 1
@@ -4100,6 +4101,6 @@
 85C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\.bin\semver.cmd133958188825303491 0
 97C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\.bin\update-browserslist-db133958188825303491 0
 101C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\node_modules\.bin\update-browserslist-db.ps1133958188825303491 0
-72C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\dist\index.html133958276194737449 0
-79C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\dist\Redux.552b6f6e.js133958278798225577 0
-83C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\dist\Redux.552b6f6e.js.map133958278798318574 0
+72C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\dist\index.html133958464962737307 0
+79C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\dist\Redux.552b6f6e.js133958464964474477 0
+83C:\Users\asus\OneDrive\Desktop\MERN\Learning_React\Redux\dist\Redux.552b6f6e.js.map133958464964615962 0
