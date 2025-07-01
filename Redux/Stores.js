@@ -6,5 +6,4 @@ const stores=configureStore({
         slice1: slice1Reducer,
     }
 })
-
 export default stores;
