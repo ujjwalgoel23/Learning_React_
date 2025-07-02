@@ -1,7 +1,6 @@
 {
   "name": "redux",
   "version": "1.0.0",
-  "main": "Counting.js",
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "ansi-styles": "^4.3.0",
