@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Increment, Decrement, Reset } from "./Slicer1";
 
 export default function Counting() {
-  const counter = useSelector((state) => state.slice1.count); // ✅ fixed 'State'
+  const counter = useSelector((state) => state.slice1.count); 
   const dispatch = useDispatch();
 
   return (
