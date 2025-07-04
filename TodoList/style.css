@@ -1,0 +1,127 @@
+.todo-app {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8fafc;
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #1e293b;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.input-container button {
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.todo-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.todo-item {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-text {
+  font-size: 1rem;
+  color: #1e293b;
+  word-break: break-word;
+  flex: 1;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.clear-btn  {
+  background-color: #d02b2b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.clear-btn1  {
+  background-color: #64748b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .todo-app {
+    background-color: #1e293b;
+  }
+
+  h1,
+  .task-count,
+  .item-text {
+    color: #f8fafc;
+  }
+
+  .todo-item {
+    background-color: #334155;
+  }
+
+  .input-container input {
+    background-color: #334155;
+    border-color: #475569;
+    color: #f8fafc;
+  }
+
+  .footer {
+    border-top-color: #475569;
+  }
+}

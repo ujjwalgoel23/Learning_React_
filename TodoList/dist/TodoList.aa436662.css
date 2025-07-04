@@ -1,0 +1,125 @@
+.todo-app {
+  background-color: #f8fafc;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+h1 {
+  color: #1e293b;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input-container {
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.input-container input {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  flex: 1;
+  padding: .75rem 1rem;
+  font-size: 1rem;
+}
+
+.input-container button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 8px;
+  padding: .75rem 1.5rem;
+  font-weight: 500;
+}
+
+.todo-items {
+  flex-direction: column;
+  gap: .75rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.todo-item {
+  background-color: #fff;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+  box-shadow: 0 1px 3px #0000001a;
+}
+
+.item-text {
+  color: #1e293b;
+  word-break: break-word;
+  flex: 1;
+  font-size: 1rem;
+}
+
+.delete-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ef4444;
+  border: none;
+  border-radius: 6px;
+  margin-left: auto;
+  padding: .4rem .8rem;
+  font-size: .9rem;
+}
+
+.footer {
+  border-top: 1px solid #e2e8f0;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  display: flex;
+}
+
+.clear-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #d02b2b;
+  border: none;
+  border-radius: 6px;
+  padding: .5rem 1rem;
+}
+
+.clear-btn1 {
+  color: #fff;
+  cursor: pointer;
+  background-color: #64748b;
+  border: none;
+  border-radius: 6px;
+  padding: .5rem 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .todo-app {
+    background-color: #1e293b;
+  }
+
+  h1, .task-count, .item-text {
+    color: #f8fafc;
+  }
+
+  .todo-item {
+    background-color: #334155;
+  }
+
+  .input-container input {
+    color: #f8fafc;
+    background-color: #334155;
+    border-color: #475569;
+  }
+
+  .footer {
+    border-top-color: #475569;
+  }
+}
+/*# sourceMappingURL=TodoList.aa436662.css.map */
