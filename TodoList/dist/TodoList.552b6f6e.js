@@ -16146,7 +16146,7 @@ function Todo() {
                 children: "Todo List"
             }, void 0, false, {
                 fileName: "todo.js",
-                lineNumber: 27,
+                lineNumber: 26,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -16159,7 +16159,7 @@ function Todo() {
                         placeholder: "Add Task"
                     }, void 0, false, {
                         fileName: "todo.js",
-                        lineNumber: 30,
+                        lineNumber: 29,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -16169,13 +16169,13 @@ function Todo() {
                         children: "Add"
                     }, void 0, false, {
                         fileName: "todo.js",
-                        lineNumber: 31,
+                        lineNumber: 30,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "todo.js",
-                lineNumber: 29,
+                lineNumber: 28,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -16188,15 +16188,7 @@ function Todo() {
                                 children: item
                             }, void 0, false, {
                                 fileName: "todo.js",
-                                lineNumber: 37,
-                                columnNumber: 25
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                className: "clear-btn1",
-                                children: "Edit"
-                            }, void 0, false, {
-                                fileName: "todo.js",
-                                lineNumber: 38,
+                                lineNumber: 36,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -16205,18 +16197,18 @@ function Todo() {
                                 children: "Remove"
                             }, void 0, false, {
                                 fileName: "todo.js",
-                                lineNumber: 39,
+                                lineNumber: 38,
                                 columnNumber: 26
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "todo.js",
-                        lineNumber: 36,
+                        lineNumber: 35,
                         columnNumber: 21
                     }, this))
             }, void 0, false, {
                 fileName: "todo.js",
-                lineNumber: 34,
+                lineNumber: 33,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -16231,7 +16223,7 @@ function Todo() {
                         ]
                     }, void 0, true, {
                         fileName: "todo.js",
-                        lineNumber: 46,
+                        lineNumber: 45,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -16240,19 +16232,19 @@ function Todo() {
                         children: "Clear All"
                     }, void 0, false, {
                         fileName: "todo.js",
-                        lineNumber: 47,
+                        lineNumber: 46,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "todo.js",
-                lineNumber: 45,
+                lineNumber: 44,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "todo.js",
-        lineNumber: 26,
+        lineNumber: 25,
         columnNumber: 9
     }, this);
 }

@@ -16,11 +16,10 @@ export default function Todo() {
         setItems([]);
     }
 
-   function removeItem(indexToRemove) {
-  const updatedItems = items.filter((item, index) => index !== indexToRemove);
-  setItems(updatedItems);
-}
-
+    function removeItem(indexToRemove) {
+     const updatedItems = items.filter((item, index) => index !== indexToRemove);
+     setItems(updatedItems);
+    }
 
     return (
         <div className="todo-app">
@@ -30,12 +29,12 @@ export default function Todo() {
                 <input type="text" value={input} onChange={(e) => setInput(e.target.value)} placeholder="Add Task"/>
                 <button onClick={ ()=>{handleAddItem()}}>Add</button>
             </div>
-            
+             
             <div className="todo-items">
                 {items.map((item,index) => (
                     <div key={index} className="todo-item">
                         <div className="item-text">{item}</div> 
-                        <button className="clear-btn1">Edit</button>
+                         
                          <button className="clear-btn1" onClick={() => removeItem(index)}>Remove</button>
                     </div>
                 ))}
